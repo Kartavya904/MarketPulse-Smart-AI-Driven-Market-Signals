@@ -1,0 +1,46 @@
+🚀 MarketPulse Project Roadmap
+✅ 1. Backend Development (Go):
+Set up RESTful APIs using Gin or Fiber frameworks.
+Implement JWT-based authentication via Firebase Authentication.
+Create concurrent web scraping services using Colly and Goquery for news aggregation.
+Integrate Elasticsearch for efficient indexing & search capability.
+API Stack:
+
+Market Data: Alpha Vantage & Finnhub
+News: NewsAPI.org
+Social Sentiment: Reddit, StockTwits
+Economic Calendar: Financial Modeling Prep
+Notifications: EmailJS or Telegram API
+🎨 2. Frontend Development (React + Tailwind CSS):
+Design and build a responsive login page and intuitive dashboard layout.
+Implement dynamic stock screens with real-time data via Axios or React Query.
+Integrate interactive data visualizations (real-time charts) using Chart.js or Recharts.
+Fully leverage Tailwind CSS for clean, responsive UI.
+🤖 3. AI Integration (Sentiment & Analysis):
+Train a sentiment-analysis model externally (Python/TensorFlow/PyTorch).
+Export the trained model to ONNX or TensorFlow SavedModel.
+Host and serve the AI model for sentiment predictions using TensorFlow Serving or ONNX runtime (Go).
+Alternative/Support: Hugging Face Inference API (free-tier) for lightweight sentiment tasks.
+
+📉 4. Real-Time Market Signals:
+Integrate with free real-time market-data providers (Alpha Vantage, Finnhub, or Binance Futures API).
+Develop a robust trading indicator engine that provides accurate and timely buy/sell signals based on market and sentiment data.
+📈 5. Observability & Monitoring:
+Implement structured logging with Zap or Logrus.
+Set up monitoring and metrics collection using Prometheus.
+Visualize system performance metrics via Grafana dashboards.
+Implement distributed tracing using OpenTelemetry for in-depth observability.
+🚢 6. Deployment & CI/CD Automation:
+Create and maintain a GitHub or GitLab repository for version control.
+Automate the testing and deployment processes with GitHub Actions or GitLab CI.
+Deploy using Docker Compose or Kubernetes to cloud platforms like AWS, Google Cloud, or Azure.
+📌 Free-Forever API Stack (Final Selection):
+Feature	API/Service	Limits
+Market Data	Alpha Vantage + Finnhub	500/day, 60/min
+News	NewsAPI.org	100/day
+Social Sentiment	Reddit + StockTwits	Virtually unlimited
+AI Sentiment	Hugging Face + TF Serving (self-hosted)	30k chars/month
+Authentication	Firebase Auth	Unlimited
+Web Scraping	Colly + Goquery (self-hosted)	Unlimited
+Economic Calendar	Financial Modeling Prep	250/day
+Notifications	EmailJS API	200 emails/month

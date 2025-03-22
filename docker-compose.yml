@@ -7,6 +7,11 @@ services:
     depends_on:
       - redis
       - elasticsearch
+    volumes:
+      - ./backend:/app
+    environment:
+      - LOGIN_EMAIL=${LOGIN_EMAIL}
+      - LOGIN_PASSWORD=${LOGIN_PASSWORD}
 
   redis:
     image: redis:latest

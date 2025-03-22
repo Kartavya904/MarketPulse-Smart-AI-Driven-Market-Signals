@@ -41,6 +41,7 @@ tailwind.out.css
 *.container
 *.image
 docker-compose.override.yml
+tmp/
 
 # Elasticsearch data (if used locally)
 elasticsearch-data/
