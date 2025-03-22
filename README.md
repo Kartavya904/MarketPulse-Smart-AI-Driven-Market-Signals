@@ -1,4 +1,4 @@
-# 📈 MarketPulse
+# 📈 MarketPulse: Smart AI-Driven Market Signals
 
 **Intelligent Stock & Futures Trading Insights Aggregator**
 
