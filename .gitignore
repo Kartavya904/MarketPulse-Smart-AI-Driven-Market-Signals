@@ -1,0 +1,57 @@
+# General
+.env
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Node.js / React Frontend
+node_modules/
+build/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Tailwind CSS output
+tailwind.out.css
+
+# Go Backend
+/backend/bin/
+/backend/*.exe
+/backend/*.dll
+/backend/*.so
+/backend/*.dylib
+/backend/*.test
+/backend/vendor/
+/backend/debug
+/backend/build
+
+# Go module dependencies
+/backend/vendor/
+/backend/go.sum
+
+# IDE Specific files
+*.swp
+*~
+
+# Docker
+*.container
+*.image
+docker-compose.override.yml
+
+# Elasticsearch data (if used locally)
+elasticsearch-data/
+
+# Redis data (if used locally)
+redis-data/
+
+# Logs
+logs/
+*.log*
+
+# Miscellaneous system files
+Thumbs.db
+Desktop.ini
